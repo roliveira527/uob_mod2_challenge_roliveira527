@@ -11,6 +11,6 @@ The page is deployed on GitHub Pages which can be accessed via the link: https:/
 ## Screenshots
 
 ### Design Provided
-![Screenshot of expected (structural) outcome](assets/images/02-challenge-design.png)
+![Screenshot of expected (structural) outcome](images/02-challenge-design.png)
 
 ### Challenge Outcome
