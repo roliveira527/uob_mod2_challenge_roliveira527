@@ -145,6 +145,7 @@ main {
 }
 
 .work-card {
+  color: black;
   display: flex;
   align-items: end;
   overflow: hidden;
@@ -166,6 +167,14 @@ main {
   width: 100%;
   height: auto;
   z-index: 0;
+  opacity: 0.75;
+  transition: all 0.2s ease-in;
+}
+
+.work-img:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
 }
 
 .work-card::before {
