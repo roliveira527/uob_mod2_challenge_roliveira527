@@ -14,3 +14,4 @@ The page is deployed on GitHub Pages which can be accessed via the link: https:/
 ![Screenshot of expected (structural) outcome](images/02-challenge-design.png)
 
 ### Challenge Outcome
+![Screenshot of produced outcome](images/02-challenge-outcome.png)
