@@ -1,4 +1,4 @@
-# uob_mod2_challenge_roliveira527
+# UoB Bootcamp Module 1 Challenge - roliveira527
 ## Description
 Module 2 Challenge for UoB Skills Bootcamp in Front-End Web Development &amp; UX
 
