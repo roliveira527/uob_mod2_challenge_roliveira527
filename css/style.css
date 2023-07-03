@@ -1,3 +1,12 @@
+/* ROOT */
+:root {
+  --wenge: #504746;
+  --chartreuse: #3AB795;
+  --white: #FFFFFF;
+}
+
+/* RESET */
+
 * {
   box-sizing: border-box;
 }
@@ -20,4 +29,203 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/* STYLING */
+
+/* --------------------Nav--------------------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+  background-color: var(--wenge);
+}
+
+.name-container {
+  margin-left: 0px;
+  background-color: var(--chartreuse);
+}
+
+header h1 {
+  font: bold caption;
+  font-size: 42px;
+  color: var(--wenge);
+  padding: 5px 20px 5px 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0px 8px;
+  margin: 8px;
+  color: var(--white);
+  background-color: transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 2px solid var(--white);
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+}
+/* -------------------------------------------- */
+
+/* ------------------Banner-------------------- */
+#hero-banner {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 160px;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#subtitle-container {
+  padding: 6px 10px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: var(--chartreuse);
+}
+
+#subtitle {
+  color: var(--wenge);
+  font-size: 28px;
+}
+/* -------------------------------------------- */
+
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "about about-content"
+  "work work-content"
+  "contact contact-content";
+}
+
+.page-section {
+  border-right: 3px solid black;
+  margin: 10px 10px 10px 0px;
+  padding-right: 30px;
+  justify-self: end;
+}
+
+.section-title {
+  font-size: 52px;
+}
+
+.content {
+  padding: 30px;
+  align-self: center;
+}
+
+/* ------------------Work Grid----------------- */
+#work-content { 
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 200px 200px;
+  grid-template-areas:
+  "work-1 work-1"
+  "work-2 work-3"
+  "work-4 work-5";
+}
+
+.work-card {
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 5px;
+  padding: 5px 0px;
+  border: 3px solid var(--chartreuse);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.work-img {
+  position: relative;
+  justify-self: center;
+  align-self: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.work-card::before {
+  background-color: rgba(145, 60, 180, 0.25);
+}
+
+#work-1 {
+  grid-area: work-1;
+}
+
+#work-2 {
+  grid-area: work-2;
+}
+
+#work-3 {
+  grid-area: work-3;
+}
+
+#work-4 {
+  grid-area: work-4;
+}
+
+#work-5 {
+  grid-area: work-5;
+}
+
+.work-card-title {
+  position: absolute;
+  margin-bottom: 20px;  
+  padding: 10px;
+  z-index: 2;
+  background-color: var(--chartreuse);
+}
+/* -------------------------------------------- */
+
+#about {
+  grid-area: about;
+}
+
+#about-content {
+  grid-area: about-content;
+}
+
+#work {
+  grid-area: work;
+}
+
+#contact {
+  grid-area:contact;
+}
+
+#contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contact-content a {
+  color: var(--chartreuse);
+  text-align: center;
+  padding: 3px 0px;
+  border-bottom: 2px solid var(--chartreuse);
 }

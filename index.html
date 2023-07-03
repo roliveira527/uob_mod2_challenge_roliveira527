@@ -5,39 +5,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Ricardo O 🌎 Web Dev</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
-    <nav>
+    <div class="name-container">
+      <h1>Ricardo Oliveira</h1>
+    </div>
+    <nav class="nav-bar">
+      <div class="button-container">
+        <a href="#about">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="">Resume</a>
+      </div>
     </nav>
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+  <section id="hero-banner">
+    <div id="subtitle-container">
+      <h2 id="subtitle">Computer Science BSc</h2>
     </div>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <h2 class="section-title">About Me</h2>
     </section>
+    <section class="content" id="about-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Sed erat quam, suscipit vel mi nec, convallis gravida tellus.
+         Vivamus ac posuere risus, quis vestibulum dui. 
+         Maecenas venenatis dolor non libero laoreet semper. 
+         Proin sed ipsum elit. Aenean sit amet feugiat orci.
+         Ut tincidunt quam tortor, sed aliquet justo congue id. 
+         Mauris vitae nunc convallis, viverra tortor vitae, vestibulum dui.
+         Sed eget enim non odio eleifend tempor. 
+         Nunc aliquam ante vitae turpis molestie, vel bibendum nunc aliquam. 
+         Nam feugiat interdum turpis, varius consectetur ipsum vehicula in. 
+         Sed posuere justo eget mauris fringilla blandit. 
+      </p>
+    </section>
+
+
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2 class="section-title">Work</h2>
+    </section>
+    <section class="content" id="work-content">
+      <div class="work-card" id="work-1">
+        <img class="work-img" src="./images/02-car.jpg" alt="electric vehicle driving on mountain road">
+        <div class="work-card-title">
+          <h3>Accoustic Vehicle Alerting System (AVAS)</h3>
+          <h4>Java</h4>
+        </div>
+      </div>
+      <div class="work-card" id="work-2">
+        <img class="work-img" src="./images/02-restaurant.jpg" alt="restaurant dining area">
+        <div class="work-card-title">
+          <h3>Fine Dining Front-End</h3>
+          <h4>React</h4>
+        </div>
+      </div>
+      <div class="work-card" id="work-3">
+        <img class="work-img" src="./images/02-youtube-clone.jpg" alt="2D plane with video thumbnails">
+        <div class="work-card-title">
+          <h3>YouTube Clone</h3>
+          <h4>React/RapidAPI</h4>
+        </div>
+      </div>
+      <div class="work-card" id="work-4">
+        <img class="work-img" src="./images/02-portfolio-1.jpg" alt="surface covered in red LEDs">
+        <div class="work-card-title">
+          <h3>LED Wall</h3>
+          <h4>Node/IoT</h4>
+        </div>
+      </div>
+      <div class="work-card" id="work-5">
+        <img class="work-img" src="./images/02-portfolio-2.jpg" alt="laptop screen with calculator app">
+        <div class="work-card-title">
+          <h3>Calculator</h3>
+          <h4>React/JavaScript</h4>
+        </div>
+      </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="page-section" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+    </section>
+    <section class="content" id="contact-content">
+      <a>555.555.5555</a>
+      <a>rdeoliveira@placeholder.com</a>
+      <a href="https://github.com/roliveira527" target="_blank">GitHub</a>
+      <a>Twitter</a>
+      <a>Spotify</a>
     </section>
   </main>
 </body>
