@@ -1,4 +1,4 @@
-# UoB Bootcamp Module 1 Challenge - roliveira527
+# UoB Bootcamp Module 2 Challenge - roliveira527
 ## Description
 Module 2 Challenge for UoB Skills Bootcamp in Front-End Web Development &amp; UX
 
@@ -11,5 +11,7 @@ The page is deployed on GitHub Pages which can be accessed via the link: https:/
 ## Screenshots
 
 ### Design Provided
+![Screenshot of expected (structural) outcome](images/02-challenge-design.png)
 
 ### Challenge Outcome
+![Screenshot of produced outcome](images/02-challenge-outcome.png)
