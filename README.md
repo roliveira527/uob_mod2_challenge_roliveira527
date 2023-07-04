@@ -7,6 +7,7 @@ The objective of this challenge is to develop a portfolio webpage from scratch, 
 
 ## Deployment
 The page is deployed on GitHub Pages which can be accessed via the link: https://roliveira527.github.io/uob_mod2_challenge_roliveira527/
+To view the responsiveness of the webpage, please check out the GitHub Pages link above.
 
 ## Screenshots
 
