@@ -281,3 +281,41 @@ main {
     justify-self: end;
   }
 }
+
+@media only screen and (max-width: 710px) {
+  .button-container {
+    text-align: center;
+  }
+
+  #hero-banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  #subtitle-container {
+    padding: 6px 10px;
+    margin: 60px 0px 0px 0px;
+    background-color: var(--chartreuse);
+  }
+
+  #work-content { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .work-card {
+    height: 160px;
+  }
+
+  #contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+
+  #contact-content a {
+    width: auto;
+  }
+}
