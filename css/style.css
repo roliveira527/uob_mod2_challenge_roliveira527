@@ -238,3 +238,46 @@ main {
   padding: 3px 0px;
   border-bottom: 2px solid var(--chartreuse);
 }
+
+@media only screen and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    height: 130px;
+  }
+
+  header h1 {
+    text-align: center;    
+    padding: 0px;
+    width: 100vw;
+    padding: 5px 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  
+  .button-container {
+    margin-right: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-section {
+    width: auto;
+    border-right: none;
+    border-bottom: 3px solid black;
+    margin: 10px 30px 10px 30px;
+    padding-right: 0px;
+    justify-self: end;
+  }
+}
